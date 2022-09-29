@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* IMPOSTAZIONI GENERALI */
+html body {
+    background-image:url('/assets/img/sfondo.png');
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    background-attachment: fixed;
+    background-size: auto;
+    font-size: 1em;
+}
+
+/* HEADER */
+header {
+    background-image: linear-gradient(to bottom,#01aacd,#0098bc, #0087ab,#007699,#006688 );
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 3px 4px 2px rgba(115, 115, 115, 1);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+header div p {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+header nav ul {
+
+    margin-top: 20px;
+    font-size: 0.8rem;
+
+}
+ol{
+    margin-left: 40px;
+}
+nav ul li{
+    list-style-type: none;
+    font-size: 0.9rem;
+}
+nav ul li::before{
+    content: "\21D2";
+
+}
+nav ul li::after{
+    content: "\21D0";
+
+}
+nav ul a :visited{
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul a :hover{
+    font-weight: bold;
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* MAIN */
+main {
+    background-color: #ffffff;
+    box-shadow: 0px 3px 4px 2px rgba(115, 115, 115, 1);
+    padding: 30px 10px;
+}
+hr{ 
+    display: none;
+}
+ h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+
+ }
+/* ELEMENTI NEL MAIN - ARTICLE */
+main article h1 + p {
+    color: #aaaaaa;
+    margin-bottom: 20px;
+}
+main article h1 {
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 20px;
+}
+strong {
+    color:#aa2072;
+    font-weight: 600;
+}
+main article ul {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+code{
+    background-color: #dddddd;
+    border:1px solid #968e8f;
+    border-radius: 6px;
+    line-height: 2rem;
+}
+/* TABELLE */
+caption{
+    font-weight: 600;
+    font-style: italic;
+}
+table {
+    width: 280px;
+    text-align: center;
+    border-bottom: 7px solid #0000ff;
+    margin-bottom: 20px;
+}
+thead{
+    background-color: #3366cc;
+    color: #ffffff;
+}
+th{
+    padding: 10px;
+    border-right: solid #fff;
+}
+tr:nth-child(even){ 
+    background-color: #ececec;
+    border-top:1px solid #b8b8b8 ;
+    border-bottom: 1px solid #b8b8b8;
+}
+td{
+    padding: 10px;
+}
+/* FORM */
+a:link, a:visited {
+    font-weight: bold;
+    color: #0098bc;
+    text-decoration: underline;
+}
+
+a:hover{
+    font-weight: bold;
+    color: #0000ff;
+    text-decoration: underline;
+}
+iframe{
+    border-radius: 10px;
+    width: 300px;
+    height: 150px;
+}
+section{
+    background-color: #dddddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+form{
+    text-align: center;
+}
+input{
+    border: none;
+    border-bottom: 1px dashed #000000;
+}
+input :focus{
+    border:1px dashed #000000;
+}
+/* ELEMENTI NELL' ASIDE */
+aside div {
+    background-color: #aaaaaa;
+    border:1px solid #b8b8b8;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+aside div a + p{
+    font-weight: bold;
+}
+/* FOOTER */
+footer{
+    background-image: linear-gradient(to bottom #005566,#194c5b,#234350,#283b44,#2a3338);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+address a:link a:visited{
+    font-weight: bold;
+    color: #d511fe;
+    text-decoration: underline;
+
+}
